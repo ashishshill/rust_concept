@@ -36,4 +36,18 @@ fn main() {
         }
     };
     println!("Number is {}", result);
+
+    let a = [1, 4, 40, 50];
+
+    for el in a.iter() {
+        println!("this is the value: {}", el);
+    }
+
+    let mut b = 4;
+
+    while b != 0 {
+        println!("{}", b);
+        b -= 1;
+    }
+    println!("bye bye loop");
 }
